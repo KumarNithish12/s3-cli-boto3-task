@@ -17,4 +17,4 @@ This repository contains Python scripts that demonstrate the creation of an S3 b
    git clone https://github.com/kumarnithish12/s3-cli-boto3-task.git
    pip install boto3
 
-2. Copy the commands in cli.txt and paste it as it is in your terminal.
+2. Copy the commands in s3-cli.txt and paste it as it is in your terminal.
