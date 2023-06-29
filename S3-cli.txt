@@ -1,0 +1,9 @@
+S3
+
+# aws s3api create-bucket --bucket <bucket-name> --region <region-name> --object-ownership BucketOwnerPreferred --create-bucket-configuration LocationConstraint=<region-name>
+
+# aws s3api delete-public-access-block --bucket <bucket-name>
+
+# aws s3 cp <file-name> s3://<bucket-name>/<file-name>
+
+# aws s3api put-object-acl  --bucket <bucket-name> --key <file-name> --acl public-read 
